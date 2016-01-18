@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+nav {
+	width: 100%;
+  height: 75px;
+	background-color: #adb5c0;
+  position: static;
+}
+nav ul {
+	display: inline-block;
+	list-style: none;
+  float: right;
+  margin-right: 25px;
+}
+nav ul li {
+	margin: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+nav ul li:hover {
+	background-color: #c8cfd9;
+  border-top: solid 5px #f4511e;
+  margin: 0px;
+}
+nav img {
+	display: inline-flex;
+	margin: 10px;
+}
+.slider {
+	width: 100%;
+  height: 600px;
+	background-image: url(C:/Users/Kalor/Desktop/sass/lawyer.jpg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+/*.box {
+	margin: 14px; 
+	width: 47%;
+}*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+  width: 240px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+  font-size: 37px;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
