@@ -107,10 +107,18 @@ nav img {
   text-align: center;
   width: 100%;
   background-color: #c8cfd9;
-  display: inline-block;
 }
 .art {
   border: solid 1px;
+  width: 30%;
+  margin: 15px;
+  display: inline-block;
+}
+footer {
+  width: 100%;
+  background-color: #C8CFB0;
+}
+.foot {
   width: 30%;
   margin: 15px;
   display: inline-block;
