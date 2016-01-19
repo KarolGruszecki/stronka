@@ -4,11 +4,12 @@
 body {
 	width: 100%;
 	margin: 0 auto;
+  font-family: lato;
 }
 nav {
 	width: 100%;
   height: 75px;
-	background-color: #adb5c0;
+	background-color: #c8cfd9;
   position: static;
 }
 nav ul {
@@ -24,7 +25,7 @@ nav ul li {
   display: inline-block;
 }
 nav ul li:hover {
-	background-color: #c8cfd9;
+	/*background-color: #adb5c0;*/
   border-top: solid 5px #f4511e;
   margin: 0px;
 }
@@ -32,17 +33,33 @@ nav img {
 	display: inline-flex;
 	margin: 10px;
 }
-.slider {
+.middle {
 	width: 100%;
-  height: 600px;
-	background-image: url(C:/Users/Kalor/Desktop/sass/lawyer.jpg);
+  height: 550px;
+	background-image: url(C:/Users/Kalor/Desktop/test/stronka/bg2.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   display: inline-block;
+  position: relative;
+  text-transform: uppercase;
 }
-/*.box {
-	margin: 14px; 
-	width: 47%;
-}*/
+.middle p {
+  font-size: 28px;
+  font-style: italic;
+  color: #152647;
+  margin: 35px 90px;
+}
+.middle ul li {
+  font-size: 32px;
+  font-style: bold;
+  color: #152647;
+  margin: 8px 90px;
+  /*text-align: center;*/
+}
+.buttonPosition {
+  text-align: right;
+  margin: 8px 90px;
+}
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -57,14 +74,12 @@ nav img {
   cursor: pointer;
   margin: 5px;
 }
-
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .button span:after {
   content: '>>';
   position: absolute;
@@ -74,12 +89,29 @@ nav img {
   transition: 0.5s;
   font-size: 37px;
 }
-
 .button:hover span {
   padding-right: 25px;
 }
-
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+.internition {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: #152647;
+  font-size: 25px;
+}
+.content {
+  text-align: center;
+  width: 100%;
+  background-color: #c8cfd9;
+  display: inline-block;
+}
+.art {
+  border: solid 1px;
+  width: 30%;
+  margin: 15px;
+  display: inline-block;
 }
